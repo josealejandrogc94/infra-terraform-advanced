@@ -21,3 +21,5 @@ jobs:
 
       - name: Terraform Validate
         run: terraform validate
+      - name: Set output
+        run: echo "example_output=$(cat output_file.txt)" >> $GITHUB_ENV
