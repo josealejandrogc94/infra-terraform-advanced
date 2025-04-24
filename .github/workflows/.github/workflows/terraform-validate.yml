@@ -21,7 +21,3 @@ jobs:
 
       - name: Terraform Validate
         run: terraform validate
-
-      - name: Print success message
-        run: echo "Terraform validate workflow executed successfully!"
-
